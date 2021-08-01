@@ -1,0 +1,84 @@
+.contacto {
+    margin-top: 10px;
+
+    ;
+}
+
+
+.contactoimg img {
+    width: 100%;
+
+    border-radius: 50px;
+}
+
+
+// PROPIEDADES BOTONES//@at-root
+
+.contactobotones {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.boton1 {
+    font-weight: 100;
+    margin-right: 20px;
+    height: 70%;
+    font-size: small;
+}
+
+.boton2 {
+    height: 70%;
+    font-weight: 100;
+    font-size: small;
+}
+
+//ALINEACIONES//@at-root
+
+.contactoimg {
+    display: inline-flex;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 576px) {
+
+    .contacto {
+        margin-top: 30px;
+    }
+
+
+    .contactoimg {
+        justify-content: center;
+    }
+
+    .contactoimg img {
+        width: 100%;
+        border-radius: 100px;
+    }
+
+
+    .contactotexto {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+
+    .titulo__contacto {
+        font-size: xx-large;
+        font-weight: 700;
+    }
+
+    .texto__contacto {
+        font-size: $large;
+        color: $quick-silver;
+    }
+
+
+    .contactobotones {
+        display: none
+    }
+
+
+}

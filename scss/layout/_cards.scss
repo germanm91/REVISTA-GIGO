@@ -1,0 +1,36 @@
+.titulo__cards {
+    margin-top: 40px;
+    margin-left: 125px
+}
+
+//IMG CARDS//
+
+
+.card img {
+    width: 100%;
+}
+
+.card-deck {
+    position: relative;
+    margin: auto;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 10px
+}
+
+
+
+@media screen and (max-width:576px) {
+
+
+    .card-deck {
+        position: relative;
+        margin: auto;
+    }
+
+
+    .card {
+        margin-top: 10px;
+    }
+
+}
